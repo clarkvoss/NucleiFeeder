@@ -65,5 +65,5 @@ def feed_to_nuclei(url, templates):
 
 # Example usage
 xml_file = "burp_output.xml"  # Path to Burp XML file
-nuclei_templates = "nuclei-templates/http"  # Path to Nuclei templates
+nuclei_templates = "nuclei-templates"  # Path to Nuclei templates
 process_burp_xml(xml_file, nuclei_templates)
